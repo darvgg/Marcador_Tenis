@@ -45,3 +45,9 @@ describe("Caso 8: Marcador 40 a 40", () => {
     expect(mostrar_resultado(4,4)).toEqual("Deuce - Deuce");
   });
 });
+
+describe("Caso 9: Marcador Ventaja para el jugador 1", () => {
+  it("deberia mostrar Advantage for p1", () => {
+    expect(mostrar_resultado(5,4)).toEqual("Advantage for p1");
+  });
+});

@@ -11,7 +11,9 @@ function mostrar_resultado (score_1,score_2){
     else if (score_1 == score_2){
         resultado = "Deuce - Deuce";
     }
-
+    else if (score_1 >= score_2){
+        resultado = "Advantage for p1";
+    }
     return resultado;
 }
 
