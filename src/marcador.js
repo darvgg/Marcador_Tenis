@@ -17,8 +17,10 @@ function mostrar_resultado (score_1,score_2){
     else if (score_1 < score_2){
         resultado = "Advantage for p2";
     }
-    else if ((score_1-score_2) == 2){
-        resultado = "Gano Jugador 1";
+    if (score_1 >= 4){
+        if ((score_1-score_2)>=2 ){
+            resultado = "Game for p1";
+        }
     }
     return resultado;
 }

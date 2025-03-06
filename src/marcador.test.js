@@ -68,6 +68,6 @@ describe("Caso 11: De ventaja a empate", () => {
 });
 describe("Caso 12: Ganador Jugador 1", () => {
   it("deberia mostrar Game for p1", () => {
-    expect(mostrar_resultado(5,6)).toEqual("Game for p1");
+    expect(mostrar_resultado(8,6)).toEqual("Game for p1");
   });
 });
