@@ -34,8 +34,14 @@ describe("Caso 6: Marcador 0 a 30", () => {
   });
 });
 
-describe("Caso 6: Marcador 0 a 40", () => {
+describe("Caso 7: Marcador 0 a 40", () => {
   it("deberia mostrar 0 - 40", () => {
     expect(mostrar_resultado(0,3)).toEqual("0 - 40");
+  });
+});
+
+describe("Caso 8: Marcador 40 a 40", () => {
+  it("deberia mostrar Deuce - Deuce", () => {
+    expect(mostrar_resultado(4,4)).toEqual("Deuce - Deuce");
   });
 });

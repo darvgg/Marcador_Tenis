@@ -8,6 +8,9 @@ function mostrar_resultado (score_1,score_2){
     else if (score_1 < 4 && score_2 < 4){
         resultado = puntuaciones[score_1] + " - " +puntuaciones [score_2];
     }
+    else if (score_1 == score_2){
+        resultado = "Deuce - Deuce";
+    }
 
     return resultado;
 }
