@@ -51,3 +51,23 @@ describe("Caso 9: Marcador Ventaja para el jugador 1", () => {
     expect(mostrar_resultado(5,4)).toEqual("Advantage for p1");
   });
 });
+
+describe("Caso 10: Marcador Ventaja para el jugador 2", () => {
+  it("deberia mostrar Advantage for p2", () => {
+    expect(mostrar_resultado(5,6)).toEqual("Advantage for p2");
+  });
+});
+
+describe("Caso 11: De ventaja a empate", () => {
+  it("deberia mostrar Advantage for p2", () => {
+    expect(mostrar_resultado(5,6)).toEqual("Advantage for p2");
+  });
+  it("deberia mostrar Deuce - Deuce ", () => {
+    expect(mostrar_resultado(6,6)).toEqual("Deuce - Deuce");
+  });
+});
+describe("Caso 12: Ganador Jugador 1", () => {
+  it("deberia mostrar Game for p1", () => {
+    expect(mostrar_resultado(5,6)).toEqual("Game for p1");
+  });
+});
