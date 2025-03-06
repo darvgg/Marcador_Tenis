@@ -33,3 +33,9 @@ describe("Caso 6: Marcador 0 a 30", () => {
     expect(mostrar_resultado(0,2)).toEqual("0 - 30");
   });
 });
+
+describe("Caso 6: Marcador 0 a 40", () => {
+  it("deberia mostrar 0 - 40", () => {
+    expect(mostrar_resultado(0,3)).toEqual("0 - 40");
+  });
+});
