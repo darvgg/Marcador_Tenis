@@ -40,7 +40,7 @@ describe("Caso 7: Marcador 0 a 40", () => {
   });
 });
 
-describe("Caso 8: Marcador 40 a 40", () => {
+describe("Caso 8: Marcador igual", () => {
   it("deberia mostrar Deuce - Deuce", () => {
     expect(mostrar_resultado(4,4)).toEqual("Deuce - Deuce");
   });
