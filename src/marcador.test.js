@@ -71,3 +71,8 @@ describe("Caso 12: Ganador Jugador 1", () => {
     expect(mostrar_resultado(8,6)).toEqual("Game for p1");
   });
 });
+describe("Caso 13: Ganador Jugador 2", () => {
+  it("deberia mostrar Game for p2", () => {
+    expect(mostrar_resultado(6,8)).toEqual("Game for p2");
+  });
+});
